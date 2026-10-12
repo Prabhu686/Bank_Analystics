@@ -1,0 +1,501 @@
+service_id,customer_id,requests,complaints,resolution
+SRV_50000,CUST_1000,Loan Query,Long Wait Time,Escalated
+SRV_50001,CUST_1001,Address Change,Unauthorized Transaction,Resolved - Refunded
+SRV_50002,CUST_1002,Loan Query,App Crash,Resolved - Satisfied
+SRV_50003,CUST_1003,Loan Query,Staff Behavior,Resolved - Satisfied
+SRV_50004,CUST_1004,Loan Query,Failed Transaction,Resolved - Satisfied
+SRV_50005,CUST_1005,Address Change,Unauthorized Transaction,Resolved - Satisfied
+SRV_50006,CUST_1006,Loan Query,Failed Transaction,Incomplete
+SRV_50007,CUST_1007,Password Reset,Long Wait Time,Incomplete
+SRV_50008,CUST_1008,Statement Request,Unauthorized Transaction,Resolved - Satisfied
+SRV_50009,CUST_1009,Address Change,App Crash,Resolved - Satisfied
+SRV_50010,CUST_1010,Card Replacement,Incorrect Charges,Resolved - Satisfied
+SRV_50011,CUST_1011,Loan Query,Unauthorized Transaction,Resolved - Refunded
+SRV_50012,CUST_1012,Fee Dispute,Unauthorized Transaction,Resolved - Satisfied
+SRV_50013,CUST_1013,Address Change,Unauthorized Transaction,Resolved - Satisfied
+SRV_50014,CUST_1014,Card Replacement,Unauthorized Transaction,Resolved - Satisfied
+SRV_50015,CUST_1015,Statement Request,App Crash,Pending
+SRV_50016,CUST_1016,Password Reset,App Crash,Escalated
+SRV_50017,CUST_1017,Card Replacement,Incorrect Charges,Escalated
+SRV_50018,CUST_1018,Loan Query,App Crash,Resolved - Satisfied
+SRV_50019,CUST_1019,Fee Dispute,App Crash,Incomplete
+SRV_50020,CUST_1020,Loan Query,Long Wait Time,Incomplete
+SRV_50021,CUST_1021,Card Replacement,Long Wait Time,
+SRV_50022,CUST_1022,Address Change,Failed Transaction,Resolved - Satisfied
+SRV_50023,CUST_1023,Fee Dispute,Incorrect Charges,Resolved - Refunded
+SRV_50024,CUST_1024,Fee Dispute,Long Wait Time,Resolved - Satisfied
+SRV_50025,CUST_1025,Card Replacement,Incorrect Charges,Resolved - Refunded
+SRV_50026,CUST_1026,Statement Request,Incorrect Charges,Resolved - Refunded
+SRV_50027,CUST_1027,Statement Request,Unauthorized Transaction,Resolved - Refunded
+SRV_50028,CUST_1028,Loan Query,Staff Behavior,Resolved - Satisfied
+SRV_50029,CUST_1029,Card Replacement,Staff Behavior,
+SRV_50030,CUST_1030,Fee Dispute,Staff Behavior,Incomplete
+SRV_50031,CUST_1031,Card Replacement,Incorrect Charges,Resolved - Satisfied
+SRV_50032,CUST_1032,Fee Dispute,Unauthorized Transaction,Escalated
+SRV_50033,CUST_1033,Loan Query,Failed Transaction,Resolved - Satisfied
+SRV_50034,CUST_1034,Address Change,Failed Transaction,Resolved - Satisfied
+SRV_50035,CUST_1035,Address Change,Staff Behavior,Resolved - Refunded
+SRV_50036,CUST_1036,Card Replacement,Failed Transaction,Resolved - Satisfied
+SRV_50037,CUST_1037,Fee Dispute,Unauthorized Transaction,Resolved - Satisfied
+SRV_50038,CUST_1038,Address Change,Staff Behavior,
+SRV_50039,CUST_1039,Fee Dispute,Unauthorized Transaction,Resolved - Refunded
+SRV_50040,CUST_1040,Loan Query,Failed Transaction,Escalated
+SRV_50041,CUST_1041,Card Replacement,Staff Behavior,Resolved - Satisfied
+SRV_50042,CUST_1042,Fee Dispute,Unauthorized Transaction,Escalated
+SRV_50043,CUST_1043,Card Replacement,App Crash,Resolved - Satisfied
+SRV_50044,CUST_1044,Fee Dispute,App Crash,Escalated
+SRV_50045,CUST_1045,Statement Request,Unauthorized Transaction,Resolved - Refunded
+SRV_50046,CUST_1046,Statement Request,Unauthorized Transaction,Escalated
+SRV_50047,CUST_1047,Fee Dispute,Long Wait Time,Incomplete
+SRV_50048,CUST_1048,Loan Query,Long Wait Time,Incomplete
+SRV_50049,CUST_1049,Card Replacement,Incorrect Charges,Resolved - Satisfied
+SRV_50050,CUST_1050,Password Reset,Staff Behavior,Incomplete
+SRV_50051,CUST_1051,Fee Dispute,Incorrect Charges,Resolved - Satisfied
+SRV_50052,CUST_1052,Fee Dispute,Incorrect Charges,Incomplete
+SRV_50053,CUST_1053,Statement Request,Failed Transaction,Resolved - Satisfied
+SRV_50054,CUST_1054,Address Change,App Crash,Resolved - Satisfied
+SRV_50055,CUST_1055,Statement Request,Failed Transaction,
+SRV_50056,CUST_1056,Card Replacement,Staff Behavior,Resolved - Satisfied
+SRV_50057,CUST_1057,Statement Request,Unauthorized Transaction,Escalated
+SRV_50058,CUST_1058,Password Reset,Long Wait Time,Incomplete
+SRV_50059,CUST_1059,Loan Query,Staff Behavior,Escalated
+SRV_50060,CUST_1060,Password Reset,Unauthorized Transaction,Escalated
+SRV_50061,CUST_1061,Loan Query,Staff Behavior,Pending
+SRV_50062,CUST_1062,Password Reset,Unauthorized Transaction,Resolved - Satisfied
+SRV_50063,CUST_1063,Statement Request,Long Wait Time,Resolved - Satisfied
+SRV_50064,CUST_1064,Password Reset,Unauthorized Transaction,Resolved - Satisfied
+SRV_50065,CUST_1065,Statement Request,Incorrect Charges,Resolved - Satisfied
+SRV_50066,CUST_1066,Statement Request,Staff Behavior,Resolved - Satisfied
+SRV_50067,CUST_1067,Card Replacement,Long Wait Time,
+SRV_50068,CUST_1068,Statement Request,Unauthorized Transaction,Resolved - Satisfied
+SRV_50069,CUST_1069,Address Change,Incorrect Charges,Resolved - Satisfied
+SRV_50070,CUST_1070,Password Reset,Incorrect Charges,Incomplete
+SRV_50071,CUST_1071,Fee Dispute,App Crash,Resolved - Satisfied
+SRV_50072,CUST_1072,Fee Dispute,Incorrect Charges,Resolved - Refunded
+SRV_50073,CUST_1073,Fee Dispute,Failed Transaction,Resolved - Refunded
+SRV_50074,CUST_1074,Address Change,Long Wait Time,Resolved - Refunded
+SRV_50075,CUST_1075,Statement Request,Long Wait Time,Resolved - Satisfied
+SRV_50076,CUST_1076,Password Reset,Long Wait Time,Resolved - Satisfied
+SRV_50077,CUST_1077,Loan Query,Unauthorized Transaction,Resolved - Satisfied
+SRV_50078,CUST_1078,Loan Query,Staff Behavior,Resolved - Satisfied
+SRV_50079,CUST_1079,Card Replacement,Unauthorized Transaction,
+SRV_50080,CUST_1080,Address Change,Failed Transaction,Resolved - Refunded
+SRV_50081,CUST_1081,Password Reset,Staff Behavior,
+SRV_50082,CUST_1082,Statement Request,Incorrect Charges,Resolved - Refunded
+SRV_50083,CUST_1083,Fee Dispute,Unauthorized Transaction,
+SRV_50084,CUST_1084,Address Change,Staff Behavior,Resolved - Satisfied
+SRV_50085,CUST_1085,Address Change,Incorrect Charges,Pending
+SRV_50086,CUST_1086,Password Reset,Staff Behavior,Resolved - Satisfied
+SRV_50087,CUST_1087,Statement Request,Incorrect Charges,Escalated
+SRV_50088,CUST_1088,Card Replacement,Staff Behavior,Pending
+SRV_50089,CUST_1089,Statement Request,Unauthorized Transaction,
+SRV_50090,CUST_1090,Card Replacement,Unauthorized Transaction,Resolved - Satisfied
+SRV_50091,CUST_1091,Card Replacement,Failed Transaction,Resolved - Refunded
+SRV_50092,CUST_1092,Fee Dispute,App Crash,Resolved - Satisfied
+SRV_50093,CUST_1093,Fee Dispute,Long Wait Time,Resolved - Satisfied
+SRV_50094,CUST_1094,Password Reset,Unauthorized Transaction,Resolved - Satisfied
+SRV_50095,CUST_1095,Statement Request,Unauthorized Transaction,Resolved - Satisfied
+SRV_50096,CUST_1096,Card Replacement,Incorrect Charges,Resolved - Refunded
+SRV_50097,CUST_1097,Password Reset,App Crash,Pending
+SRV_50098,CUST_1098,Card Replacement,Unauthorized Transaction,Resolved - Satisfied
+SRV_50099,CUST_1099,Address Change,Staff Behavior,Incomplete
+SRV_50100,CUST_1100,Loan Query,App Crash,Incomplete
+SRV_50101,CUST_1101,Loan Query,Long Wait Time,Incomplete
+SRV_50102,CUST_1102,Card Replacement,Staff Behavior,Pending
+SRV_50103,CUST_1103,Password Reset,Incorrect Charges,Resolved - Satisfied
+SRV_50104,CUST_1104,Fee Dispute,Failed Transaction,Resolved - Satisfied
+SRV_50105,CUST_1105,Statement Request,Staff Behavior,Resolved - Refunded
+SRV_50106,CUST_1106,Card Replacement,Long Wait Time,Resolved - Refunded
+SRV_50107,CUST_1107,Card Replacement,Staff Behavior,
+SRV_50108,CUST_1108,Statement Request,App Crash,Incomplete
+SRV_50109,CUST_1109,Fee Dispute,App Crash,Resolved - Refunded
+SRV_50110,CUST_1110,Card Replacement,Long Wait Time,Resolved - Satisfied
+SRV_50111,CUST_1111,Address Change,App Crash,Resolved - Satisfied
+SRV_50112,CUST_1112,Fee Dispute,Staff Behavior,Resolved - Satisfied
+SRV_50113,CUST_1113,Address Change,Failed Transaction,Resolved - Refunded
+SRV_50114,CUST_1114,Loan Query,Staff Behavior,Resolved - Refunded
+SRV_50115,CUST_1115,Statement Request,Failed Transaction,Pending
+SRV_50116,CUST_1116,Fee Dispute,App Crash,Resolved - Refunded
+SRV_50117,CUST_1117,Fee Dispute,Staff Behavior,Incomplete
+SRV_50118,CUST_1118,Password Reset,App Crash,Escalated
+SRV_50119,CUST_1119,Password Reset,Failed Transaction,Pending
+SRV_50120,CUST_1120,Statement Request,App Crash,Resolved - Satisfied
+SRV_50121,CUST_1121,Fee Dispute,Unauthorized Transaction,Incomplete
+SRV_50122,CUST_1122,Loan Query,Incorrect Charges,Escalated
+SRV_50123,CUST_1123,Card Replacement,Staff Behavior,Resolved - Satisfied
+SRV_50124,CUST_1124,Statement Request,Unauthorized Transaction,Resolved - Satisfied
+SRV_50125,CUST_1125,Statement Request,App Crash,Incomplete
+SRV_50126,CUST_1126,Password Reset,App Crash,
+SRV_50127,CUST_1127,Loan Query,Incorrect Charges,Resolved - Refunded
+SRV_50128,CUST_1128,Statement Request,App Crash,Resolved - Satisfied
+SRV_50129,CUST_1129,Loan Query,Incorrect Charges,Escalated
+SRV_50130,CUST_1130,Statement Request,Staff Behavior,Pending
+SRV_50131,CUST_1131,Password Reset,Failed Transaction,Resolved - Satisfied
+SRV_50132,CUST_1132,Card Replacement,Incorrect Charges,Resolved - Refunded
+SRV_50133,CUST_1133,Password Reset,Incorrect Charges,Incomplete
+SRV_50134,CUST_1134,Statement Request,Unauthorized Transaction,Pending
+SRV_50135,CUST_1135,Loan Query,App Crash,Incomplete
+SRV_50136,CUST_1136,Address Change,Staff Behavior,Resolved - Refunded
+SRV_50137,CUST_1137,Password Reset,Failed Transaction,Resolved - Satisfied
+SRV_50138,CUST_1138,Loan Query,Long Wait Time,Resolved - Refunded
+SRV_50139,CUST_1139,Password Reset,Incorrect Charges,Escalated
+SRV_50140,CUST_1140,Statement Request,Long Wait Time,
+SRV_50141,CUST_1141,Loan Query,App Crash,Resolved - Satisfied
+SRV_50142,CUST_1142,Card Replacement,Incorrect Charges,Resolved - Satisfied
+SRV_50143,CUST_1143,Loan Query,Long Wait Time,Resolved - Refunded
+SRV_50144,CUST_1144,Fee Dispute,Unauthorized Transaction,Pending
+SRV_50145,CUST_1145,Address Change,Long Wait Time,Resolved - Satisfied
+SRV_50146,CUST_1146,Statement Request,Unauthorized Transaction,Escalated
+SRV_50147,CUST_1147,Loan Query,Failed Transaction,Incomplete
+SRV_50148,CUST_1148,Statement Request,App Crash,Resolved - Satisfied
+SRV_50149,CUST_1149,Password Reset,Staff Behavior,
+SRV_50150,CUST_1150,Password Reset,Long Wait Time,Incomplete
+SRV_50151,CUST_1151,Loan Query,Incorrect Charges,Incomplete
+SRV_50152,CUST_1152,Fee Dispute,App Crash,Resolved - Satisfied
+SRV_50153,CUST_1153,Loan Query,Long Wait Time,Resolved - Satisfied
+SRV_50154,CUST_1154,Card Replacement,Incorrect Charges,Resolved - Satisfied
+SRV_50155,CUST_1155,Fee Dispute,Incorrect Charges,Escalated
+SRV_50156,CUST_1156,Statement Request,Staff Behavior,Escalated
+SRV_50157,CUST_1157,Loan Query,Staff Behavior,Escalated
+SRV_50158,CUST_1158,Statement Request,Incorrect Charges,Resolved - Satisfied
+SRV_50159,CUST_1159,Address Change,Staff Behavior,Resolved - Satisfied
+SRV_50160,CUST_1160,Fee Dispute,Incorrect Charges,Resolved - Refunded
+SRV_50161,CUST_1161,Loan Query,Long Wait Time,Resolved - Refunded
+SRV_50162,CUST_1162,Address Change,Failed Transaction,Escalated
+SRV_50163,CUST_1163,Loan Query,Staff Behavior,Resolved - Refunded
+SRV_50164,CUST_1164,Card Replacement,Unauthorized Transaction,Resolved - Satisfied
+SRV_50165,CUST_1165,Password Reset,Unauthorized Transaction,Resolved - Satisfied
+SRV_50166,CUST_1166,Statement Request,Unauthorized Transaction,Resolved - Satisfied
+SRV_50167,CUST_1167,Loan Query,Failed Transaction,Resolved - Satisfied
+SRV_50168,CUST_1168,Fee Dispute,Incorrect Charges,Resolved - Satisfied
+SRV_50169,CUST_1169,Loan Query,Incorrect Charges,Resolved - Satisfied
+SRV_50170,CUST_1170,Loan Query,App Crash,
+SRV_50171,CUST_1171,Loan Query,Unauthorized Transaction,Resolved - Satisfied
+SRV_50172,CUST_1172,Loan Query,Unauthorized Transaction,Escalated
+SRV_50173,CUST_1173,Fee Dispute,Incorrect Charges,Resolved - Satisfied
+SRV_50174,CUST_1174,Fee Dispute,Unauthorized Transaction,Escalated
+SRV_50175,CUST_1175,Loan Query,Incorrect Charges,Escalated
+SRV_50176,CUST_1176,Password Reset,Incorrect Charges,Resolved - Refunded
+SRV_50177,CUST_1177,Loan Query,Staff Behavior,Incomplete
+SRV_50178,CUST_1178,Statement Request,Incorrect Charges,Resolved - Satisfied
+SRV_50179,CUST_1179,Statement Request,Long Wait Time,Escalated
+SRV_50180,CUST_1180,Fee Dispute,Long Wait Time,Incomplete
+SRV_50181,CUST_1181,Statement Request,Long Wait Time,Incomplete
+SRV_50182,CUST_1182,Statement Request,Long Wait Time,Resolved - Satisfied
+SRV_50183,CUST_1183,Card Replacement,Failed Transaction,Resolved - Satisfied
+SRV_50184,CUST_1184,Loan Query,App Crash,
+SRV_50185,CUST_1185,Loan Query,App Crash,Escalated
+SRV_50186,CUST_1186,Loan Query,Incorrect Charges,Escalated
+SRV_50187,CUST_1187,Loan Query,Unauthorized Transaction,Resolved - Satisfied
+SRV_50188,CUST_1188,Address Change,Long Wait Time,Resolved - Refunded
+SRV_50189,CUST_1189,Loan Query,App Crash,Escalated
+SRV_50190,CUST_1190,Fee Dispute,App Crash,Resolved - Refunded
+SRV_50191,CUST_1191,Fee Dispute,Long Wait Time,Incomplete
+SRV_50192,CUST_1192,Address Change,Failed Transaction,Pending
+SRV_50193,CUST_1193,Loan Query,Failed Transaction,Resolved - Satisfied
+SRV_50194,CUST_1194,Password Reset,App Crash,Escalated
+SRV_50195,CUST_1195,Loan Query,Failed Transaction,Resolved - Satisfied
+SRV_50196,CUST_1196,Fee Dispute,Staff Behavior,Resolved - Refunded
+SRV_50197,CUST_1197,Card Replacement,Long Wait Time,Incomplete
+SRV_50198,CUST_1198,Statement Request,App Crash,Incomplete
+SRV_50199,CUST_1199,Card Replacement,Long Wait Time,Resolved - Refunded
+SRV_50200,CUST_1200,Password Reset,Failed Transaction,Resolved - Satisfied
+SRV_50201,CUST_1201,Loan Query,Long Wait Time,Resolved - Satisfied
+SRV_50202,CUST_1202,Address Change,Failed Transaction,Resolved - Refunded
+SRV_50203,CUST_1203,Loan Query,Failed Transaction,Resolved - Satisfied
+SRV_50204,CUST_1204,Password Reset,Long Wait Time,Resolved - Refunded
+SRV_50205,CUST_1205,Password Reset,Failed Transaction,Resolved - Satisfied
+SRV_50206,CUST_1206,Statement Request,Staff Behavior,Resolved - Satisfied
+SRV_50207,CUST_1207,Password Reset,Incorrect Charges,Resolved - Satisfied
+SRV_50208,CUST_1208,Card Replacement,Long Wait Time,Incomplete
+SRV_50209,CUST_1209,Statement Request,Incorrect Charges,
+SRV_50210,CUST_1210,Loan Query,Long Wait Time,Resolved - Satisfied
+SRV_50211,CUST_1211,Loan Query,Failed Transaction,Resolved - Satisfied
+SRV_50212,CUST_1212,Address Change,Failed Transaction,Resolved - Refunded
+SRV_50213,CUST_1213,Password Reset,App Crash,Resolved - Satisfied
+SRV_50214,CUST_1214,Password Reset,Staff Behavior,Resolved - Refunded
+SRV_50215,CUST_1215,Fee Dispute,App Crash,Pending
+SRV_50216,CUST_1216,Statement Request,Incorrect Charges,Escalated
+SRV_50217,CUST_1217,Fee Dispute,Failed Transaction,Escalated
+SRV_50218,CUST_1218,Statement Request,App Crash,
+SRV_50219,CUST_1219,Card Replacement,Failed Transaction,Incomplete
+SRV_50220,CUST_1220,Statement Request,Long Wait Time,Incomplete
+SRV_50221,CUST_1221,Loan Query,App Crash,Resolved - Refunded
+SRV_50222,CUST_1222,Address Change,Incorrect Charges,
+SRV_50223,CUST_1223,Statement Request,App Crash,Resolved - Refunded
+SRV_50224,CUST_1224,Statement Request,Failed Transaction,Resolved - Satisfied
+SRV_50225,CUST_1225,Statement Request,Unauthorized Transaction,Escalated
+SRV_50226,CUST_1226,Address Change,Unauthorized Transaction,Resolved - Refunded
+SRV_50227,CUST_1227,Password Reset,Staff Behavior,Resolved - Satisfied
+SRV_50228,CUST_1228,Address Change,Failed Transaction,
+SRV_50229,CUST_1229,Password Reset,Long Wait Time,Resolved - Refunded
+SRV_50230,CUST_1230,Loan Query,App Crash,
+SRV_50231,CUST_1231,Address Change,Unauthorized Transaction,Resolved - Refunded
+SRV_50232,CUST_1232,Password Reset,Long Wait Time,Escalated
+SRV_50233,CUST_1233,Loan Query,Failed Transaction,Resolved - Satisfied
+SRV_50234,CUST_1234,Loan Query,Long Wait Time,Resolved - Refunded
+SRV_50235,CUST_1235,Password Reset,Failed Transaction,Resolved - Refunded
+SRV_50236,CUST_1236,Password Reset,Staff Behavior,Escalated
+SRV_50237,CUST_1237,Card Replacement,App Crash,Resolved - Satisfied
+SRV_50238,CUST_1238,Loan Query,Long Wait Time,Resolved - Refunded
+SRV_50239,CUST_1239,Password Reset,App Crash,Resolved - Satisfied
+SRV_50240,CUST_1240,Loan Query,Long Wait Time,Resolved - Satisfied
+SRV_50241,CUST_1241,Address Change,Failed Transaction,Incomplete
+SRV_50242,CUST_1242,Fee Dispute,Failed Transaction,Resolved - Satisfied
+SRV_50243,CUST_1243,Fee Dispute,Long Wait Time,Resolved - Satisfied
+SRV_50244,CUST_1244,Statement Request,Staff Behavior,Resolved - Refunded
+SRV_50245,CUST_1245,Password Reset,Failed Transaction,Incomplete
+SRV_50246,CUST_1246,Password Reset,Incorrect Charges,Resolved - Refunded
+SRV_50247,CUST_1247,Loan Query,Incorrect Charges,Escalated
+SRV_50248,CUST_1248,Statement Request,App Crash,Incomplete
+SRV_50249,CUST_1249,Password Reset,Incorrect Charges,Resolved - Satisfied
+SRV_50250,CUST_1250,Loan Query,Incorrect Charges,Resolved - Satisfied
+SRV_50251,CUST_1251,Password Reset,Staff Behavior,Resolved - Satisfied
+SRV_50252,CUST_1252,Loan Query,Staff Behavior,Pending
+SRV_50253,CUST_1253,Password Reset,Unauthorized Transaction,Resolved - Satisfied
+SRV_50254,CUST_1254,Card Replacement,Unauthorized Transaction,Resolved - Satisfied
+SRV_50255,CUST_1255,Loan Query,Staff Behavior,Escalated
+SRV_50256,CUST_1256,Card Replacement,Unauthorized Transaction,Resolved - Refunded
+SRV_50257,CUST_1257,Card Replacement,Staff Behavior,Resolved - Refunded
+SRV_50258,CUST_1258,Card Replacement,Unauthorized Transaction,Resolved - Refunded
+SRV_50259,CUST_1259,Card Replacement,Failed Transaction,Resolved - Satisfied
+SRV_50260,CUST_1260,Address Change,Staff Behavior,Resolved - Refunded
+SRV_50261,CUST_1261,Statement Request,App Crash,Resolved - Refunded
+SRV_50262,CUST_1262,Fee Dispute,App Crash,Incomplete
+SRV_50263,CUST_1263,Address Change,Staff Behavior,Resolved - Satisfied
+SRV_50264,CUST_1264,Password Reset,Incorrect Charges,Incomplete
+SRV_50265,CUST_1265,Password Reset,App Crash,
+SRV_50266,CUST_1266,Statement Request,Incorrect Charges,Resolved - Satisfied
+SRV_50267,CUST_1267,Fee Dispute,App Crash,Escalated
+SRV_50268,CUST_1268,Fee Dispute,Long Wait Time,Resolved - Satisfied
+SRV_50269,CUST_1269,Fee Dispute,Long Wait Time,Incomplete
+SRV_50270,CUST_1270,Card Replacement,Staff Behavior,Incomplete
+SRV_50271,CUST_1271,Address Change,App Crash,Resolved - Satisfied
+SRV_50272,CUST_1272,Password Reset,Failed Transaction,Resolved - Satisfied
+SRV_50273,CUST_1273,Address Change,Incorrect Charges,Resolved - Satisfied
+SRV_50274,CUST_1274,Address Change,App Crash,Resolved - Satisfied
+SRV_50275,CUST_1275,Address Change,Staff Behavior,
+SRV_50276,CUST_1276,Fee Dispute,Incorrect Charges,Resolved - Satisfied
+SRV_50277,CUST_1277,Statement Request,Unauthorized Transaction,Escalated
+SRV_50278,CUST_1278,Statement Request,Staff Behavior,Resolved - Satisfied
+SRV_50279,CUST_1279,Fee Dispute,App Crash,Pending
+SRV_50280,CUST_1280,Password Reset,Failed Transaction,
+SRV_50281,CUST_1281,Password Reset,Unauthorized Transaction,Resolved - Refunded
+SRV_50282,CUST_1282,Password Reset,Staff Behavior,Incomplete
+SRV_50283,CUST_1283,Statement Request,App Crash,Resolved - Satisfied
+SRV_50284,CUST_1284,Statement Request,Long Wait Time,Resolved - Satisfied
+SRV_50285,CUST_1285,Address Change,App Crash,Escalated
+SRV_50286,CUST_1286,Fee Dispute,Long Wait Time,Resolved - Refunded
+SRV_50287,CUST_1287,Card Replacement,Long Wait Time,Resolved - Refunded
+SRV_50288,CUST_1288,Address Change,Staff Behavior,Incomplete
+SRV_50289,CUST_1289,Loan Query,App Crash,Incomplete
+SRV_50290,CUST_1290,Statement Request,App Crash,Escalated
+SRV_50291,CUST_1291,Address Change,Long Wait Time,Pending
+SRV_50292,CUST_1292,Fee Dispute,Incorrect Charges,Resolved - Satisfied
+SRV_50293,CUST_1293,Loan Query,Unauthorized Transaction,Resolved - Satisfied
+SRV_50294,CUST_1294,Address Change,Failed Transaction,Escalated
+SRV_50295,CUST_1295,Fee Dispute,App Crash,Resolved - Refunded
+SRV_50296,CUST_1296,Fee Dispute,Unauthorized Transaction,Resolved - Refunded
+SRV_50297,CUST_1297,Statement Request,Unauthorized Transaction,Resolved - Satisfied
+SRV_50298,CUST_1298,Card Replacement,Incorrect Charges,Escalated
+SRV_50299,CUST_1299,Address Change,Unauthorized Transaction,Resolved - Satisfied
+SRV_50300,CUST_1300,Fee Dispute,App Crash,
+SRV_50301,CUST_1301,Password Reset,Staff Behavior,Resolved - Satisfied
+SRV_50302,CUST_1302,Fee Dispute,Staff Behavior,Resolved - Satisfied
+SRV_50303,CUST_1303,Card Replacement,Unauthorized Transaction,Resolved - Satisfied
+SRV_50304,CUST_1304,Fee Dispute,App Crash,Resolved - Satisfied
+SRV_50305,CUST_1305,Statement Request,App Crash,Incomplete
+SRV_50306,CUST_1306,Address Change,Long Wait Time,Resolved - Satisfied
+SRV_50307,CUST_1307,Statement Request,Incorrect Charges,Resolved - Satisfied
+SRV_50308,CUST_1308,Address Change,Failed Transaction,Resolved - Refunded
+SRV_50309,CUST_1309,Loan Query,Long Wait Time,Resolved - Refunded
+SRV_50310,CUST_1310,Address Change,Failed Transaction,Resolved - Satisfied
+SRV_50311,CUST_1311,Loan Query,App Crash,
+SRV_50312,CUST_1312,Statement Request,Staff Behavior,
+SRV_50313,CUST_1313,Password Reset,Long Wait Time,Escalated
+SRV_50314,CUST_1314,Card Replacement,Unauthorized Transaction,Resolved - Satisfied
+SRV_50315,CUST_1315,Password Reset,Unauthorized Transaction,Resolved - Refunded
+SRV_50316,CUST_1316,Loan Query,Failed Transaction,Resolved - Satisfied
+SRV_50317,CUST_1317,Fee Dispute,App Crash,Resolved - Satisfied
+SRV_50318,CUST_1318,Fee Dispute,Staff Behavior,Escalated
+SRV_50319,CUST_1319,Password Reset,Failed Transaction,Incomplete
+SRV_50320,CUST_1320,Fee Dispute,Staff Behavior,Resolved - Satisfied
+SRV_50321,CUST_1321,Loan Query,Incorrect Charges,
+SRV_50322,CUST_1322,Statement Request,Staff Behavior,Resolved - Satisfied
+SRV_50323,CUST_1323,Card Replacement,Unauthorized Transaction,Resolved - Satisfied
+SRV_50324,CUST_1324,Address Change,Long Wait Time,Resolved - Satisfied
+SRV_50325,CUST_1325,Loan Query,Long Wait Time,Resolved - Satisfied
+SRV_50326,CUST_1326,Loan Query,Long Wait Time,Incomplete
+SRV_50327,CUST_1327,Address Change,Staff Behavior,Resolved - Refunded
+SRV_50328,CUST_1328,Address Change,Unauthorized Transaction,Resolved - Satisfied
+SRV_50329,CUST_1329,Card Replacement,Staff Behavior,
+SRV_50330,CUST_1330,Card Replacement,App Crash,Incomplete
+SRV_50331,CUST_1331,Card Replacement,Unauthorized Transaction,Pending
+SRV_50332,CUST_1332,Fee Dispute,Unauthorized Transaction,Incomplete
+SRV_50333,CUST_1333,Loan Query,Staff Behavior,Resolved - Satisfied
+SRV_50334,CUST_1334,Statement Request,Staff Behavior,Pending
+SRV_50335,CUST_1335,Address Change,Long Wait Time,Escalated
+SRV_50336,CUST_1336,Loan Query,Unauthorized Transaction,Incomplete
+SRV_50337,CUST_1337,Loan Query,Long Wait Time,Pending
+SRV_50338,CUST_1338,Card Replacement,App Crash,Resolved - Satisfied
+SRV_50339,CUST_1339,Card Replacement,Incorrect Charges,Pending
+SRV_50340,CUST_1340,Loan Query,Long Wait Time,Resolved - Satisfied
+SRV_50341,CUST_1341,Card Replacement,Staff Behavior,Resolved - Satisfied
+SRV_50342,CUST_1342,Fee Dispute,Failed Transaction,Resolved - Satisfied
+SRV_50343,CUST_1343,Address Change,Incorrect Charges,
+SRV_50344,CUST_1344,Loan Query,App Crash,Resolved - Satisfied
+SRV_50345,CUST_1345,Address Change,Staff Behavior,Resolved - Refunded
+SRV_50346,CUST_1346,Fee Dispute,Incorrect Charges,Resolved - Satisfied
+SRV_50347,CUST_1347,Card Replacement,Staff Behavior,Incomplete
+SRV_50348,CUST_1348,Password Reset,Long Wait Time,Resolved - Satisfied
+SRV_50349,CUST_1349,Fee Dispute,Staff Behavior,Pending
+SRV_50350,CUST_1350,Password Reset,App Crash,Incomplete
+SRV_50351,CUST_1351,Address Change,Failed Transaction,Resolved - Refunded
+SRV_50352,CUST_1352,Loan Query,Long Wait Time,Resolved - Satisfied
+SRV_50353,CUST_1353,Card Replacement,Long Wait Time,Escalated
+SRV_50354,CUST_1354,Fee Dispute,App Crash,Incomplete
+SRV_50355,CUST_1355,Card Replacement,App Crash,Pending
+SRV_50356,CUST_1356,Password Reset,Incorrect Charges,Resolved - Satisfied
+SRV_50357,CUST_1357,Password Reset,Failed Transaction,Incomplete
+SRV_50358,CUST_1358,Statement Request,Staff Behavior,
+SRV_50359,CUST_1359,Loan Query,Incorrect Charges,Resolved - Refunded
+SRV_50360,CUST_1360,Password Reset,Staff Behavior,Pending
+SRV_50361,CUST_1361,Loan Query,Staff Behavior,Resolved - Satisfied
+SRV_50362,CUST_1362,Statement Request,Staff Behavior,Pending
+SRV_50363,CUST_1363,Fee Dispute,Incorrect Charges,Resolved - Refunded
+SRV_50364,CUST_1364,Statement Request,Long Wait Time,Incomplete
+SRV_50365,CUST_1365,Loan Query,App Crash,Resolved - Satisfied
+SRV_50366,CUST_1366,Password Reset,Long Wait Time,Resolved - Refunded
+SRV_50367,CUST_1367,Address Change,Failed Transaction,Pending
+SRV_50368,CUST_1368,Loan Query,Incorrect Charges,Resolved - Satisfied
+SRV_50369,CUST_1369,Card Replacement,Failed Transaction,Resolved - Satisfied
+SRV_50370,CUST_1370,Address Change,App Crash,Incomplete
+SRV_50371,CUST_1371,Loan Query,App Crash,Resolved - Satisfied
+SRV_50372,CUST_1372,Card Replacement,Unauthorized Transaction,Incomplete
+SRV_50373,CUST_1373,Statement Request,Failed Transaction,Resolved - Satisfied
+SRV_50374,CUST_1374,Address Change,Long Wait Time,Resolved - Satisfied
+SRV_50375,CUST_1375,Loan Query,Failed Transaction,Pending
+SRV_50376,CUST_1376,Fee Dispute,Incorrect Charges,
+SRV_50377,CUST_1377,Statement Request,App Crash,Resolved - Refunded
+SRV_50378,CUST_1378,Card Replacement,App Crash,Resolved - Refunded
+SRV_50379,CUST_1379,Fee Dispute,Failed Transaction,
+SRV_50380,CUST_1380,Password Reset,Failed Transaction,Resolved - Satisfied
+SRV_50381,CUST_1381,Statement Request,Staff Behavior,Resolved - Refunded
+SRV_50382,CUST_1382,Statement Request,Failed Transaction,
+SRV_50383,CUST_1383,Loan Query,Staff Behavior,Resolved - Refunded
+SRV_50384,CUST_1384,Loan Query,Incorrect Charges,Resolved - Satisfied
+SRV_50385,CUST_1385,Card Replacement,Incorrect Charges,Resolved - Satisfied
+SRV_50386,CUST_1386,Statement Request,Long Wait Time,Resolved - Refunded
+SRV_50387,CUST_1387,Loan Query,Failed Transaction,Resolved - Satisfied
+SRV_50388,CUST_1388,Password Reset,Long Wait Time,Resolved - Satisfied
+SRV_50389,CUST_1389,Loan Query,Unauthorized Transaction,Escalated
+SRV_50390,CUST_1390,Statement Request,Incorrect Charges,Resolved - Refunded
+SRV_50391,CUST_1391,Address Change,App Crash,Incomplete
+SRV_50392,CUST_1392,Fee Dispute,Staff Behavior,Escalated
+SRV_50393,CUST_1393,Statement Request,Unauthorized Transaction,Resolved - Satisfied
+SRV_50394,CUST_1394,Password Reset,App Crash,Escalated
+SRV_50395,CUST_1395,Statement Request,Unauthorized Transaction,Resolved - Satisfied
+SRV_50396,CUST_1396,Password Reset,Long Wait Time,Pending
+SRV_50397,CUST_1397,Statement Request,Long Wait Time,
+SRV_50398,CUST_1398,Fee Dispute,Staff Behavior,Resolved - Refunded
+SRV_50399,CUST_1399,Fee Dispute,Incorrect Charges,Escalated
+SRV_50400,CUST_1400,Password Reset,Staff Behavior,Resolved - Satisfied
+SRV_50401,CUST_1401,Statement Request,App Crash,Resolved - Refunded
+SRV_50402,CUST_1402,Fee Dispute,Unauthorized Transaction,Incomplete
+SRV_50403,CUST_1403,Card Replacement,Staff Behavior,Resolved - Satisfied
+SRV_50404,CUST_1404,Statement Request,Failed Transaction,Resolved - Satisfied
+SRV_50405,CUST_1405,Fee Dispute,Failed Transaction,
+SRV_50406,CUST_1406,Address Change,Incorrect Charges,Escalated
+SRV_50407,CUST_1407,Address Change,Staff Behavior,Resolved - Satisfied
+SRV_50408,CUST_1408,Card Replacement,App Crash,Incomplete
+SRV_50409,CUST_1409,Fee Dispute,Failed Transaction,Resolved - Satisfied
+SRV_50410,CUST_1410,Address Change,Incorrect Charges,Resolved - Satisfied
+SRV_50411,CUST_1411,Statement Request,Staff Behavior,
+SRV_50412,CUST_1412,Loan Query,Incorrect Charges,
+SRV_50413,CUST_1413,Fee Dispute,App Crash,Escalated
+SRV_50414,CUST_1414,Card Replacement,Failed Transaction,
+SRV_50415,CUST_1415,Fee Dispute,Failed Transaction,Resolved - Satisfied
+SRV_50416,CUST_1416,Password Reset,Failed Transaction,Resolved - Satisfied
+SRV_50417,CUST_1417,Password Reset,Long Wait Time,Incomplete
+SRV_50418,CUST_1418,Address Change,Failed Transaction,
+SRV_50419,CUST_1419,Password Reset,Unauthorized Transaction,Pending
+SRV_50420,CUST_1420,Card Replacement,Long Wait Time,Resolved - Satisfied
+SRV_50421,CUST_1421,Address Change,Staff Behavior,Resolved - Refunded
+SRV_50422,CUST_1422,Card Replacement,Long Wait Time,Resolved - Refunded
+SRV_50423,CUST_1423,Statement Request,Long Wait Time,Incomplete
+SRV_50424,CUST_1424,Card Replacement,Long Wait Time,Escalated
+SRV_50425,CUST_1425,Password Reset,Incorrect Charges,Escalated
+SRV_50426,CUST_1426,Statement Request,Unauthorized Transaction,Resolved - Satisfied
+SRV_50427,CUST_1427,Password Reset,App Crash,Resolved - Refunded
+SRV_50428,CUST_1428,Card Replacement,Failed Transaction,Resolved - Refunded
+SRV_50429,CUST_1429,Password Reset,Long Wait Time,Incomplete
+SRV_50430,CUST_1430,Password Reset,App Crash,Resolved - Satisfied
+SRV_50431,CUST_1431,Password Reset,Incorrect Charges,Resolved - Satisfied
+SRV_50432,CUST_1432,Fee Dispute,App Crash,Resolved - Refunded
+SRV_50433,CUST_1433,Statement Request,Long Wait Time,Resolved - Satisfied
+SRV_50434,CUST_1434,Statement Request,Staff Behavior,Resolved - Satisfied
+SRV_50435,CUST_1435,Statement Request,Unauthorized Transaction,Incomplete
+SRV_50436,CUST_1436,Card Replacement,App Crash,Resolved - Refunded
+SRV_50437,CUST_1437,Loan Query,Long Wait Time,Incomplete
+SRV_50438,CUST_1438,Card Replacement,Long Wait Time,Pending
+SRV_50439,CUST_1439,Statement Request,Failed Transaction,Resolved - Satisfied
+SRV_50440,CUST_1440,Address Change,Staff Behavior,Resolved - Refunded
+SRV_50441,CUST_1441,Password Reset,Failed Transaction,Resolved - Satisfied
+SRV_50442,CUST_1442,Password Reset,Staff Behavior,Incomplete
+SRV_50443,CUST_1443,Loan Query,Unauthorized Transaction,Resolved - Refunded
+SRV_50444,CUST_1444,Address Change,Failed Transaction,Resolved - Satisfied
+SRV_50445,CUST_1445,Fee Dispute,Unauthorized Transaction,Resolved - Satisfied
+SRV_50446,CUST_1446,Card Replacement,Incorrect Charges,Resolved - Refunded
+SRV_50447,CUST_1447,Fee Dispute,Incorrect Charges,Resolved - Satisfied
+SRV_50448,CUST_1448,Address Change,Staff Behavior,Resolved - Satisfied
+SRV_50449,CUST_1449,Loan Query,Staff Behavior,Pending
+SRV_50450,CUST_1450,Address Change,Failed Transaction,
+SRV_50451,CUST_1451,Loan Query,Incorrect Charges,Resolved - Satisfied
+SRV_50452,CUST_1452,Fee Dispute,App Crash,
+SRV_50453,CUST_1453,Fee Dispute,App Crash,Incomplete
+SRV_50454,CUST_1454,Address Change,App Crash,
+SRV_50455,CUST_1455,Address Change,Incorrect Charges,Incomplete
+SRV_50456,CUST_1456,Password Reset,App Crash,Resolved - Satisfied
+SRV_50457,CUST_1457,Loan Query,Unauthorized Transaction,Escalated
+SRV_50458,CUST_1458,Password Reset,Long Wait Time,Resolved - Refunded
+SRV_50459,CUST_1459,Card Replacement,Staff Behavior,
+SRV_50460,CUST_1460,Card Replacement,Failed Transaction,Incomplete
+SRV_50461,CUST_1461,Address Change,Unauthorized Transaction,
+SRV_50462,CUST_1462,Fee Dispute,App Crash,Resolved - Satisfied
+SRV_50463,CUST_1463,Card Replacement,Long Wait Time,Resolved - Refunded
+SRV_50464,CUST_1464,Card Replacement,Failed Transaction,Pending
+SRV_50465,CUST_1465,Password Reset,Unauthorized Transaction,Resolved - Satisfied
+SRV_50466,CUST_1466,Password Reset,Failed Transaction,Pending
+SRV_50467,CUST_1467,Card Replacement,Staff Behavior,Resolved - Satisfied
+SRV_50468,CUST_1468,Address Change,Incorrect Charges,Resolved - Satisfied
+SRV_50469,CUST_1469,Password Reset,App Crash,Pending
+SRV_50470,CUST_1470,Card Replacement,Unauthorized Transaction,Resolved - Satisfied
+SRV_50471,CUST_1471,Fee Dispute,Unauthorized Transaction,
+SRV_50472,CUST_1472,Password Reset,Long Wait Time,
+SRV_50473,CUST_1473,Card Replacement,Long Wait Time,Resolved - Satisfied
+SRV_50474,CUST_1474,Loan Query,Long Wait Time,Escalated
+SRV_50475,CUST_1475,Password Reset,Failed Transaction,Resolved - Refunded
+SRV_50476,CUST_1476,Loan Query,App Crash,
+SRV_50477,CUST_1477,Password Reset,Failed Transaction,
+SRV_50478,CUST_1478,Password Reset,App Crash,Resolved - Satisfied
+SRV_50479,CUST_1479,Statement Request,Unauthorized Transaction,Resolved - Refunded
+SRV_50480,CUST_1480,Statement Request,Failed Transaction,Incomplete
+SRV_50481,CUST_1481,Loan Query,Failed Transaction,Incomplete
+SRV_50482,CUST_1482,Address Change,Failed Transaction,Resolved - Satisfied
+SRV_50483,CUST_1483,Card Replacement,Incorrect Charges,Resolved - Satisfied
+SRV_50484,CUST_1484,Address Change,Staff Behavior,Incomplete
+SRV_50485,CUST_1485,Address Change,App Crash,Resolved - Refunded
+SRV_50486,CUST_1486,Statement Request,App Crash,Resolved - Refunded
+SRV_50487,CUST_1487,Card Replacement,Failed Transaction,Pending
+SRV_50488,CUST_1488,Statement Request,Incorrect Charges,
+SRV_50489,CUST_1489,Statement Request,Failed Transaction,Resolved - Refunded
+SRV_50490,CUST_1490,Statement Request,App Crash,Incomplete
+SRV_50491,CUST_1491,Fee Dispute,Staff Behavior,
+SRV_50492,CUST_1492,Address Change,Staff Behavior,Resolved - Satisfied
+SRV_50493,CUST_1493,Address Change,Unauthorized Transaction,Resolved - Satisfied
+SRV_50494,CUST_1494,Address Change,Incorrect Charges,Resolved - Satisfied
+SRV_50495,CUST_1495,Fee Dispute,Staff Behavior,Pending
+SRV_50496,CUST_1496,Password Reset,Incorrect Charges,Resolved - Satisfied
+SRV_50497,CUST_1497,Loan Query,Failed Transaction,Resolved - Satisfied
+SRV_50498,CUST_1498,Loan Query,Unauthorized Transaction,Incomplete
+SRV_50499,CUST_1499,Fee Dispute,App Crash,Resolved - Satisfied
